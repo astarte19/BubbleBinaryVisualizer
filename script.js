@@ -5,7 +5,7 @@ var alert_container = document.getElementById("alert");
 
 //Generate items and labels
 function Generator() {
-    for (var i = 0; i < 25; i++) {
+    for (var i = 0; i < 15; i++) {
   
         var value = Math.ceil(Math.random() * 150);
         var item = document.createElement("div");
@@ -106,7 +106,7 @@ async function binarySearch(index) {
     alert.innerText = `Finding ${index}...`;
 
     var start = 0;
-    var end = 24;
+    var end = 14;
     
     while (start <= end) {
       //get mid
